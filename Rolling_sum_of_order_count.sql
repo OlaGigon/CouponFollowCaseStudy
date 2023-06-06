@@ -1,8 +1,10 @@
-WITH t1 as(
-select  cast(TRANSACTIONDATE as date) as TransDate, count(distinct ORDERID) as NoOrders
-from Orders
-group by 1
-order by 1 asc
+--first calculate the number of orders per day
+WITH t1 AS(
+SELECT  CAST(TRANSACTIONDATE AS date) AS TransDate, COUNT(DISTINCT ORDERID) AS NoOrders
+FROM Orders
+GROUP BY 1
+ORDER BY 1 ASC
 )
-SELECT TransDate, SUM(NoOrders) OVER (ORDER BY TransDate asc) as RollingSum
-from t1
+--calcualting rolling sum 
+SELECT TransDate, NoOrders, SUM(NoOrders) OVER (ORDER BY TransDate ASC) AS RollingSum
+FROM t1
