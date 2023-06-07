@@ -68,4 +68,4 @@ The confidential parts of the scripts, like credentials, connection strings were
 
 __CreateDatabaseTablesScripts.sql__ - scripts with tables definions
 
-__Query1__ to __Query6__ - queries for the exercises. (Included as well in databricks notebooks).
+__Query1__ to __Query6__ - queries for the exercises. (Included also in the Databricks notebooks).
