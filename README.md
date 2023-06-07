@@ -43,6 +43,10 @@ I would use Azure architecture. As infrastructure I would use:
 
 Azure Storage Account gen 2, ADF, Azure SQL database, Databricks
 
+The flow and used services are presented on below diagram: 
+![image](https://github.com/OlaGigon/CouponFollowCaseStudy/assets/44475277/bdcb682f-abc8-4cb6-ac66-b4791b1da9f8)
+
+
 **Remark:** 
 
 I. The other approach is to use the Snowflake 
