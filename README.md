@@ -1,7 +1,6 @@
 # CouponFollowCaseStudy
-Data warehouse design and exploration
+**Data warehouse design and exploration. Suggested design for the solution:**
 
-Suggested design for the solution: 
 
 ## 1. Data Storage 
 
