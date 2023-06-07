@@ -60,6 +60,7 @@ In provided csv files PageViews was not complete. It was missing the column that
 
 ## Description of the files in repo: 
 
-CouponFollowCaseStudy - notebook with results.ipynb - notebook exported from Databricks. Notebook contain: connecting the storage and fetching the csv's, queries with results for provided tasks, connection with database and writing the tables. (The confidential parts of the scripts, like credentials were removed from code) 
+__CouponFollowCaseStudy - notebook with results.ipynb__ - notebook exported from Databricks. Notebook contain: connecting the storage and fetching the csv's, queries with results for provided tasks, connection with database and writing the tables. (The confidential parts of the scripts, like credentials were removed from code) 
+
 CreateDatabaseTablesScripts.sql - scripts with tables definions
 Query1 to Query6 - queries for the exercises. (Included as well in databricks notebooks)
