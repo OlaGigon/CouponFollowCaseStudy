@@ -56,7 +56,7 @@ II. In the approach I assumed we load data only once. In case of business scenar
 ## Database diagram
 ![image](https://github.com/OlaGigon/CouponFollowCaseStudy/assets/44475277/93862292-ce7a-465c-b438-59631d554c32)
 
-In provided csv files PageViews was not complete. It was missing the column that would be used as foreign key to connect with the rest of the tables (e.g. DomainNameID). There is also no candidate for the Primary Key column in this table. (I was thinking of Event ID but it is not in format meeting the requirements of Primary Key column). That's why PageViews table on the diagram is not linked with the rest of the tables. 
+In provided csv files the PageViews table was not complete. It was missing the column that would be used as foreign key to connect with the rest of the tables (e.g. DomainNameID). There is also no candidate for the Primary Key column in this table. (I was thinking of Event ID but it is not in format meeting the requirements of Primary Key column). That's why PageViews table on the diagram is not linked with the rest of the tables. 
 
 ## Description of the files in repo: 
 
