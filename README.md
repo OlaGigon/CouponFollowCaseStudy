@@ -49,7 +49,7 @@ The flow and used services are presented on below diagram:
 **Remark:** 
 
 I. The other approach is to use the Snowflake 
-Snowflake  (I wasn't able to set up Snowflake fully as I wasn't able to install the SnowSQL on my computer) 
+(unfortunately I couldn't set up Snowflake fully as I wasn't able to install the SnowSQL on my computer) 
 
 II. In the approach I assumed we load data only once. In case of busieness scenario the mechanism of updating the tables should be included as well (whether the data is replaced in the tables, new data is appended, or whether the history of changes is kept - delta tables) 
 
