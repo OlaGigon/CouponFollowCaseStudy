@@ -65,6 +65,7 @@ Diagram was prepared in SSMS which I used to connect to the Azure SQL Database t
 ![image](https://github.com/OlaGigon/CouponFollowCaseStudy/assets/44475277/93862292-ce7a-465c-b438-59631d554c32)
 
 In provided csv files the PageViews table was not complete. It was missing the column that would be used as foreign key to connect with the rest of the tables (e.g. DomainNameID). There is also no candidate for the Primary Key column in this table. (I was thinking of Event ID but it is not in format meeting the requirements of Primary Key column). That's why PageViews table on the diagram is not linked with the rest of the tables. 
+Apart from that there were other missing columns to establish the same relationships like on the diagram shown in case study. (e.g. I could not link CouponCodes to Clicks table via OfferId field).
 
 ## Description of the files in repo: 
 
