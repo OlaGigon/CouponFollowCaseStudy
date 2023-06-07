@@ -42,6 +42,7 @@ I would use Azure architecture. As infrastructure I would use:
 - ADF, 
 - Azure SQL database, 
 - Databricks
+- Key vault to store the secrets
 
 The flow and used services are presented on below diagram: 
 ![image](https://github.com/OlaGigon/CouponFollowCaseStudy/assets/44475277/bdcb682f-abc8-4cb6-ac66-b4791b1da9f8)
