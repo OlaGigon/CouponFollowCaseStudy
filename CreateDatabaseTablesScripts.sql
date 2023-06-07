@@ -1,4 +1,4 @@
-/Create tables with primary keys defined/
+--Create tables with primary keys defined
 
 CREATE TABLE [dbo].[Advertisers](
 	[ADVERTISERID] [int] NOT NULL,
