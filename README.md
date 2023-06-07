@@ -72,6 +72,7 @@ __CouponFollowCaseStudy - notebook with results.ipynb__ - notebook exported from
 - connection to the storage and fetch of the csv files, 
 - queries along with their results for required tasks, 
 - connection with database and upload of the data to the SQL tables. 
+
 The confidential parts of the scripts, like credentials, connection strings were removed from the code.
 
 __CreateDatabaseTablesScripts.sql__ - scripts with tables definions
