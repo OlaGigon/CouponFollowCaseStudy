@@ -61,6 +61,7 @@ To automate loading of new files, Azure Event Grid will be used. Whenever new fi
 II. For this case study I assumed we load data only once. In case of real business scenario the mechanism of updating the tables with new data should be included as well in the scripts (Key aspect is if the data in tables should be replaced or appended, whether the data of update should be tracked in tables).
 
 ## Database diagram
+Diagram was prepared in SSMS which I used to connect to the Azure SQL Database. 
 ![image](https://github.com/OlaGigon/CouponFollowCaseStudy/assets/44475277/93862292-ce7a-465c-b438-59631d554c32)
 
 In provided csv files the PageViews table was not complete. It was missing the column that would be used as foreign key to connect with the rest of the tables (e.g. DomainNameID). There is also no candidate for the Primary Key column in this table. (I was thinking of Event ID but it is not in format meeting the requirements of Primary Key column). That's why PageViews table on the diagram is not linked with the rest of the tables. 
