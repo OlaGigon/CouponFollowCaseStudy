@@ -58,7 +58,7 @@ The architecture diagram is presented below:
 With Snowflake the ingestion of files from Azure Storage would be managed by Snowpipe. 
 To automate loading of new files, Azure Event Grid will be used. Whenever new file arrives to the Blob Storage, an event message will be created and transferred to Snowflake and Snowpipe will be triggered. Snowpipe will be parametrized to save the files content into dedicated tables in Snowflake DataWarehouse.   
 
-II. For this case study I assumed we load data only once. In case of real business scenario the mechanism of updating the tables with new data should be included as well in the scripts (Key aspect is if the data in tables should be replaced or appended, whether the data of update should be tracked in tables).
+II. For this case study I assumed we load data only once. In case of real business scenario the mechanism of updating the tables with new data should be included as well in the scripts (Key aspect is if the data in tables should be replaced or appended, whether the date of update should be tracked in tables).
 
 ## Database diagram
 Diagram was prepared in SSMS which I used to connect to the Azure SQL Database that I created. 
