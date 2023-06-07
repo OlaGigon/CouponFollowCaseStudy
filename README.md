@@ -15,12 +15,12 @@ For the real business scenario there could be many different ways to upload the 
 Tool used for data ingestion: Azure Data Factory. 
 The process of data ingestion is about copying the csv files into final tables in a database. 
 
-Main element of ADF pipeline:
+Main elements of ADF pipeline:
 
-Databricks activity, 
-Linked Service to Azure Storage Account, 
-Linked Service to Databricks notebook, 
-Dataset for Azure Storage Account (parametrized per csv file).  
+- Databricks activity, 
+- Linked Service to Azure Storage Account, 
+- Linked Service to Databricks notebook, 
+- Dataset for Azure Storage Account (parametrized per csv file).  
 
 ADF will be an orchestrator of the flow. Once triggered, the databricks notebook will be executed. Notebook with code can be found in the repo. 
 
