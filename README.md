@@ -5,7 +5,7 @@
 ## 1. Data Storage 
 
 Raw csv files will be stored in Azure Storage Account in Blob Containers. 
-For the needs of this case study, I created the Azure Storage Account (inputstorageag) and a landing Container.
+For the need of this case study, I created the Azure Storage Account (inputstorageag) and a landing Container.
 Csv files were uploaded manually into landing container. 
 
 For the real business scenario there could be many different ways to upload the files to the storage automatically: e.g.: Function App or Logic App.
@@ -14,7 +14,7 @@ For the real business scenario there could be many different ways to upload the 
 ## 2. Data Ingestion  
 
 Tool used for data ingestion: Azure Data Factory. 
-The process of data ingestion is about copying the csv files into a final tables in a database. 
+The process of data ingestion is about copying the csv files into final tables in a database. 
 
 Main element of ADF pipeline:
 
