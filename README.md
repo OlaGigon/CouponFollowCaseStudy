@@ -51,7 +51,7 @@ The flow and used services are presented on below diagram:
 I. The other approach is to use the Snowflake 
 (unfortunately I couldn't set up Snowflake fully as I wasn't able to install the SnowSQL on my computer) 
 
-II. In the approach I assumed we load data only once. In case of busieness scenario the mechanism of updating the tables should be included as well (whether the data is replaced in the tables, new data is appended, or whether the history of changes is kept - delta tables) 
+II. In the approach I assumed we load data only once. In case of business scenario the mechanism of updating the tables should be included as well (whether the data is replaced in the tables, new data is appended, or whether the history of changes is kept - delta tables) 
 
 ## Database diagram
 ![image](https://github.com/OlaGigon/CouponFollowCaseStudy/assets/44475277/93862292-ce7a-465c-b438-59631d554c32)
