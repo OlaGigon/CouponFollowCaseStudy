@@ -22,7 +22,7 @@ Main elements of ADF pipeline:
 - Linked Service to Databricks notebook, 
 - Dataset for Azure Storage Account (parametrized per csv file).  
 
-ADF will be an orchestrator of the flow. Once triggered, the databricks notebook will be executed. Notebook with code can be found in the repo. 
+ADF will be an orchestrator of the flow. Once triggered, the databricks notebook will be executed. Notebook with code can be found in this repo. 
 
 
 ## Questions from the case study:  
