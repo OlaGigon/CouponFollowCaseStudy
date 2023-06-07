@@ -60,8 +60,12 @@ In provided csv files the PageViews table was not complete. It was missing the c
 
 ## Description of the files in repo: 
 
-__CouponFollowCaseStudy - notebook with results.ipynb__ - notebook exported from Databricks. Notebook contain: connecting the storage and fetching the csv's, queries with results for provided tasks, connection with database and writing the tables. (The confidential parts of the scripts, like credentials were removed from code) 
+__CouponFollowCaseStudy - notebook with results.ipynb__ - notebook exported from Databricks. Notebook contains: 
+- connection to the storage and fetch of the csv files, 
+- queries along with their results for required tasks, 
+- connection with database and upload of the data to the SQL tables. 
+The confidential parts of the scripts, like credentials, connection strings were removed from the code.
 
 __CreateDatabaseTablesScripts.sql__ - scripts with tables definions
 
-__Query1__ to __Query6__ - queries for the exercises. (Included as well in databricks notebooks)
+__Query1__ to __Query6__ - queries for the exercises. (Included as well in databricks notebooks).
