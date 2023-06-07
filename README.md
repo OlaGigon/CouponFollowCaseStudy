@@ -5,8 +5,7 @@
 ## 1. Data Storage 
 
 Raw csv files will be stored in Azure Storage Account in Blob Containers. 
-For the need of this case study, I created the Azure Storage Account (inputstorageag) and a landing Container.
-Csv files were uploaded manually into landing container. 
+For the need of this case study, I created the Azure Storage Account (inputstorageag) and a landing container were the csv files were uploaded manually. 
 
 For the real business scenario there could be many different ways to upload the files to the storage automatically: e.g.: Function App or Logic App.
 
