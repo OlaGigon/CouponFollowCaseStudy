@@ -52,3 +52,4 @@ There are other approaches possible:
 ## Database diagram
 ![image](https://github.com/OlaGigon/CouponFollowCaseStudy/assets/44475277/93862292-ce7a-465c-b438-59631d554c32)
 
+In provided csv files PageViews was not complete. It is missing the column that would be used as foreign key to connect with the rest of the tables (e.g. DomainNameID). There is also no candidate for the Primary Key column in this table. (I was thining of Event ID but it is not in format meeting the requirements of Primary Key column). 
